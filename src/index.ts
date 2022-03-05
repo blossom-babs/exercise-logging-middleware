@@ -1,5 +1,4 @@
 import express from 'express';
-import { logger } from './controller/logger';
 import routes from './routes/apis/user';
 
 const app = express();

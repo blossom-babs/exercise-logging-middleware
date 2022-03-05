@@ -73,3 +73,25 @@ In this project, a pre-hook script is set up that runs eslint before you make co
 
 12. tsconfig.json
 : This project is bootstrapped using typescript, as such this file species the root files and compiler options required to compile this project
+
+---
+
+### To use this project
+1. __Fork__ it, if you would like to extend the features
+2. If you would need this project for your own personal use, then you simply need to __clone__ it to your local machine.
+  - if you would like to contribute to this project, you would need to __fork__ it first, then __clone__ to your local machine.
+3. run __npm install__ or __yarn install__ to install the project dependencies
+4. Happy coding ✌️
+
+---
+### Authors
+🌸 __Blossom__
+- Github: [@blossom-babs](https://github.com/blossom-babs/)
+- LinkedIn: [Blossom Babalola](https://www.linkedin.com/in/blossom-babalola/)
+- Twitter: [@BlossomBabalola](https://twitter.com/BlossomBabalola)
+
+---
+
+### Show your support
+- Give a ⭐ if you like this project
+- [Buy me a coffee](https://www.buymeacoffee.com/blossombabs)
