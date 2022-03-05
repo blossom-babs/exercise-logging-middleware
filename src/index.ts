@@ -1,18 +1,12 @@
-import addFunc from './controller/add';
-console.log(addFunc(6, 7));
+import express from 'express';
+import { logger } from './controller/logger';
+import routes from './routes/apis/user';
 
-// a text editor function
-export const textEditor = (word: string): string => {
-  const newWord = word.split(' ');
-  let i = 0;
-  while (i < newWord.length) {
-    if (newWord[i] === 'movie') {
-      newWord[i] = 'film';
-    }
-    i++;
-  }
+const app = express();
+const port = 3000;
 
-  return newWord.join(' ');
-};
+app.use('/user', routes);
 
-textEditor('The movie that just came out is a phenomenal movie');
+app.listen(port, () => console.log('server is live on port', port));
+
+export default app;
